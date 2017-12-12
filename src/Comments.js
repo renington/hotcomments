@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Comments = () => {
+const Comments = (comments) => {
     return (
         <div>
-            Render comments
+            {JSON.stringify(comments)}
         </div>
     )
 }
