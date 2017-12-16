@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import 'bootstrap-css-only'
-import base from './base'
 
 import NewComment from './NewComment'
 import Comments from './Comments'
+
+import base from './base'
 
 class App extends Component {
   constructor(props){
