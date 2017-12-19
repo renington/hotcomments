@@ -1,0 +1,27 @@
+img#avatar {
+    -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    margin: 10px;
+}
+
+#navbar #user-name {
+    color: #ccc;
+    line-height: 50px;
+}
+
+.nav.navbar-nav a {
+    cursor: pointer;
+}
+
+#new-comment {
+    margin-bottom: 20px;
+}
