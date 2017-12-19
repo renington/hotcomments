@@ -19,7 +19,7 @@ class NewComment extends Component {
 
     render() {
         return (
-            <div className="row">
+            <div id="new-comment" className="row">
                 <textarea ref="comment" placeholder="Send Comment" className="form-control" onKeyDown={this.handleEnter}></textarea>
             </div>
         )
